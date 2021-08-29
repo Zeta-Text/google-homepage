@@ -5,21 +5,40 @@
 
     }
 
-    .search {
-        display: flex;
-        border: 1px solid grey;
-        border-radius: 25px;
+    .searchbox {
+        background: #fff;
+        border: 1px solid #dfe1e5;
+        box-shadow: none;
+        border-radius: 24px;
         height: 44px;
-        margin: auto;
+        margin: auto auto;
+        width: 70%;
+        position: relative;
+
+    }
+    
+    .search {
+        padding: 10px 15px 10px 15px;
+        
+        
+       
+    }
+    .search:focus {
+        outline: none !important;
+        box-shadow: none;
     }
 
     .button {
         display: inline-block;
+        padding: 16px 16px;
+        border-radius: 4px;
+        background-color: rgb(170, 177, 176);
+        
     }
 
     .form {
         display: inline-block;
-      
+        border-radius: 4px;
     }
     
 </style>
@@ -27,19 +46,21 @@
 <title>Google</title>
 </head>
 <body>
-    <div class="links>
+    <div class="links">
         <a href="https://google.com">Gmail</a> <a href="https://google.com">Images</a>
     </div>
     <div class ="logobox">
-    <div class="img" align="center">
+    <div class="img" style="padding-bottom: 40px;" align="center">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         </div>
-        <div align="center" class="search">
-            <input type="text" placeholder="Search">
-        </div>    
+    <div class="searchbox" align="center">
+        <div class="search">
+            <input style="width: 99%;border: transparent;" type="text" placeholder="Search">
+        </div>
+    </div>    
     <div class="buttonbox" align="center">
         <div class="button">
-            <button style="display: inlign-block" type="submit">Search Google</button>
+            <button style="display: inlign-block;" type="submit">Search Google</button>
         </div>  
         <div class="form">  
             <form action="https://google.com">
