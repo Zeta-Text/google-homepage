@@ -28,18 +28,27 @@
         box-shadow: none;
     }
 
-    .button {
-        display: inline-block;
-        padding: 16px 16px;
+    button {
+        background-color: #f8f9fa;
+        border: 1px solid #f8f9fa;
         border-radius: 4px;
-        background-color: rgb(170, 177, 176);
+        color: #3c4043;
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+
         
     }
 
-    .form {
-        display: inline-block;
-        border-radius: 4px;
-    }
+    
+    
     
 </style>
 <head> 
@@ -62,11 +71,8 @@
         <div class="button">
             <button style="display: inlign-block;" type="submit">Search Google</button>
         </div>  
-        <div class="form">  
-            <form action="https://google.com">
-                <input type="submit" value="I'm feeling lucky">
-            </form>
-    </div>
-    </div>
+        <div class="button2">  
+                <button style="display: inlign-block;" type="submit">I'm feeling lucky</button>
+        </div>
     </div>
 </body>
