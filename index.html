@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <style>
+
+    .links {
+        float: right;
+        font-family: arial,sans-serif;
+        font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+        line-height: normal;
+        padding-right: 15px;
+        white-space: nowrap;
+        color: black;
+        text-decoration: none;
+        
+    }
+
     .logobox {
         padding-top: 130px;   
 
@@ -28,7 +41,12 @@
         box-shadow: none;
     }
 
+    .buttonbox {
+       
+    }
+
     button {
+        display: inline-block;
         background-color: #f8f9fa;
         border: 1px solid #f8f9fa;
         border-radius: 4px;
@@ -43,6 +61,8 @@
         text-align: center;
         cursor: pointer;
         user-select: none;
+        
+        
 
         
     }
@@ -56,7 +76,7 @@
 </head>
 <body>
     <div class="links">
-        <a href="https://google.com">Gmail</a> <a href="https://google.com">Images</a>
+        <a href="https://google.com" style="color: black; text-decoration: none;">Gmail</a> <a href="https://google.com" style="color: black; text-decoration: none;">Images</a>
     </div>
     <div class ="logobox">
     <div class="img" style="padding-bottom: 40px;" align="center">
@@ -69,10 +89,8 @@
     </div>    
     <div class="buttonbox" align="center">
         <div class="button">
-            <button style="display: inlign-block;" type="submit">Search Google</button>
+            <button style="display: inline-block;" type="submit">Search Google</button>
+            <button style="display: inline-block;" type="submit">I'm feeling lucky</button>
         </div>  
-        <div class="button2">  
-                <button style="display: inlign-block;" type="submit">I'm feeling lucky</button>
-        </div>
     </div>
 </body>
